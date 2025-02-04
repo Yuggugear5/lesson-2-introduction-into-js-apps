@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body style="background-color: aqua;">
+        <div style="color: blue;">
+            <nav>
+                <a href="area js .html" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; ">Area Calculator</a>
+                <a href="perimeter.html" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; ">Perimeter Calculator</a>
+            </nav>
+            </div>
+        <script>
+              var choice = prompt("Welcome to Perimeter calculator. \n choose the below options to calculate the area of \n 1. Perimeter of Rectangle \n 2. Perimeter of Triangle \n 3. Perimeter of Circle \n 4. perimeter of Parelelogram")
+
+if (choice == '1') {
+    var one = prompt ('Enter the length')
+    var b = prompt ('Enter the width')
+    var result = 2 * Number(one) + Number(b)
+    alert('The Perimeter is '+ result ) 
+}
+if (choice == '2') {
+    var one = prompt ('Enter the side')
+    var b = prompt ('Enter the base')
+    var c = prompt ('Enter the side')
+    var result = Number(one) + Number(b) + Number(c)
+    alert('The Perimeter is '+ result ) 
+}   
+if (choice == '3') {
+    var one = prompt ('Enter the radius')
+    var result = 2 * 3.14 + Number(one)
+    alert('The Perimeter is '+ result ) 
+}
+if (choice == '4') {
+    var one = prompt ('Enter the side')
+    var b = prompt ('Enter the base')
+    var result = 2 * Number(one) + Number(b)
+    alert('The Perimeter is '+ result ) 
+} 
+        </script>
+    
+        <h1 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">HI THERE, WELCOME TO PERIMETER CALCULATOR</h1> 
+        <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Here you can choose various shaps to find the perimeter of.</p> 
+    </body>  
+</html>

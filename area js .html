@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body style="background-color: aqua;">
+        <nav>
+            <a href="area js .html" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; ">Area Calculator</a>
+            <a href="perimeter.html" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; ">Perimeter Calculator</a>
+        </nav>
+        <script>
+            var choice = prompt("Welcome to Area calculator. \n choose the below options to calculate the area of \n 1. Area of Rectangle \n 2. Area of Triangle \n 3. Area of Circle \n 4. Area of Parelelogram")
+
+if (choice == '1') {
+    var one = prompt ('Enter the length')
+    var b = prompt ('Enter the breath')
+    var result = Number(one) * Number(b)
+    alert('The Area is '+ result) 
+}
+if (choice == '2') {
+    var two = prompt ('Enter the base')
+    var b = prompt ('Enter the height')
+    var result = 1/2 * Number(two) * Number(b)
+    alert('The Area is ' + result) 
+}
+if (choice == '3') { 
+    var three = prompt ('Enter the radius')
+    var result = 3.14 * Number(three) * 2
+    alert('The Area is ' + result)
+}
+if (choice == '4') {
+    var four = prompt ('Enter the base')
+    var b = prompt ('Enter the height')
+    var result = Number(four) * Number(b)
+    alert('The Area is '+ result) 
+}      
+        </script>
+        <h1 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">HI THERE, WELCOME TO AREA CALCULATOR</h1> 
+        <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Here you can choose various shaps to find the area of.</p> 
+    </body>
+</html>
